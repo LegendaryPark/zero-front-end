@@ -1,6 +1,9 @@
+import './Message.css'
+
 function Message(props) {
 	return (
-		<div>
+		<div id="temp">
+			<h1>MessageScreen</h1>
 		</div>
 	);
 }

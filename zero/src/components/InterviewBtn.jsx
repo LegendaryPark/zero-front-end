@@ -1,8 +1,6 @@
 function InterviewBtn({ children, onSelect }) {
 	return (
-		<li>
-			<button onClick={onSelect}>{children}</button>
-		</li>
+		<button onClick={onSelect}>{children}</button>
 	);
 }
 
