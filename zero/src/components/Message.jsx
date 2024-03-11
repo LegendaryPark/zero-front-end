@@ -2,7 +2,7 @@ import './Message.css'
 
 function Message(props) {
 	return (
-		<div id="temp">
+		<div id="message">
 			<h1>MessageScreen</h1>
 		</div>
 	);

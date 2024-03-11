@@ -8,7 +8,7 @@ import Info from './components/Info.jsx'
 
 function App() {
 	return (
-		<div>
+		<div id="app-div">
 			<Header />
 			<Info />
 			<main id="mainid">
@@ -16,7 +16,7 @@ function App() {
 				<Message id="message"/>
 			</main>
 			<footer>
-				<h1>footer</h1>
+				<h5>footer</h5>
 			</footer>
 		</div>
 	)

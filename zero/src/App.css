@@ -3,12 +3,8 @@
 	align-items: center;
 }
 
-#interview {
-	flex: 10 0 auto;
-	border-style:dashed;
-}
-
-#message {
-	flex: 1 0 auto;
-	border-style:dashed;
+#app-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
